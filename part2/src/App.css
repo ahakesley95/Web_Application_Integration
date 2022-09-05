@@ -1,0 +1,245 @@
+.App {
+  padding: 3vh 10vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.my-picture {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.page-navigation {
+  text-align: center;
+}
+
+.papers-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.remove-all {
+  float: right;
+  width: 200px;
+  margin: 5px;
+}
+
+.paper-container, .paper-container-added {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.paper-container {
+  background-color: #f9f9f9;
+}
+
+.paper-container-added {
+  background-color: #93bcf8;
+}
+
+.paper-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.paper-title {
+  padding: 0;
+  margin: 0;
+}
+.paper-title h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.paper-data {
+  flex-grow: 1;
+}
+
+.paper-title {
+  padding: 5px;
+}
+
+.paper-controls {
+  display: flex;
+  height: 35px;
+}
+
+.paper-controls button {
+  width: 75px;
+}
+
+.paper-controls button:first-child {
+  margin-right: 5px;
+}
+
+.paper-details {
+  padding: 10px;
+}
+
+.paper-details h4 {
+  margin-bottom: 0;
+}
+
+.paper-details p {
+  margin-top: 0;
+}
+
+.author-container {
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+.author-data {
+  flex-grow: 1;
+}
+
+.author-data h2 {
+  margin: 2px 0;
+  display: inline-block;
+}
+
+.author-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.search-controls {
+  margin-bottom: 5px;
+}
+
+.search-controls input, .search-controls select {
+  margin-right: 20px;
+  margin-left: 10px;
+  max-width: 30vw;
+  min-width: 200px;
+}
+
+.no-data {
+  min-height: 25;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.login-required {
+  text-align: center;
+}
+
+.login-page-form {
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-page-heading {
+  width: 45vw;
+}
+
+.login-page-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+  width: 40vw;
+}
+
+.login-page-body input, .login-page-body button {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  overflow:hidden;
+  padding: 10px 30px 10px 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+.nav-link-active, .nav-link-active:hover {
+  color: white;
+}
+
+.nav-link-active {
+  text-decoration: underline;
+}
+
+nav ul li:last-child {
+  float: right;
+}
+
+nav ul li a {
+  display: block;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+li a:hover {
+  color: grey;
+}
+
+footer {
+  border: 1px solid black;
+  color: black;
+  background-color: black;
+  color:white;
+  width:100%;
+  padding: 5px 0 50px 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+
+}
+
+.reading-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+footer div {
+  max-width: 40%;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
